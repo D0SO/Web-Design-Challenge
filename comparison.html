@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+        <meta charset="utf-8">
+        <title>Weather Analysis</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+         <!-- Bring in our bootstrap stylesheet -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+         <!-- CSS -->
+        <link rel="stylesheet" href="Resources/assets/css/styles.css">
+          
+</head>
+
+  <body>
+           <!-- Start the navigation bar -->    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" style="background-color:#c9d8e8;" href="LandingPage.html">Latitude</a>
+          <!-- Insert toggler button -->  
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+              <!-- Start the dropdown button  -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto navbar-right">
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <strong>Plots</strong>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="visualizations/max-temp.html"><strong>Latitude vs Maximum Temperature</strong></a>
+                          <a class="dropdown-item" href="visualizations/humidity.html"><strong>Latitude vs Humidity</strong></a>
+                          <a class="dropdown-item" href="visualizations/cloudiness.html"><strong>Latitude vs Cloudiness</strong></a>
+                          <a class="dropdown-item" href="visualizations/windspeed.html"><strong>Latitude vs Winde Speed</strong></a>
+                          
+                        </div>
+                      </li>
+                      
+                  <li class="nav-item active">
+                    <a class="nav-link" href="Comparison.html"><strong>Comparison</strong><span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="Data.html"><strong>Data</strong><span class="sr-only">(current)</span></a>
+                  </li>      
+                </ul>
+              </div>
+            </nav> 
+          
+
+              <div class="hero text-center">
+                <h3>Weather Analysis Comparison</h3>
+                  <p class="description-text">Click any plot to get an in-depth analysis.</p>
+                    <!-- Start of plot comparison visualizationa --> 
+       
+                    <div class="container">
+                      <article class="description-content row">
+                        <div class="col-xs-12">
+                        </div>
+                        <div class="col-md-6">
+                          <h4 class="comparison-header">Latitude vs. Max Temperature</h4>
+                          <a href="visualizations/max-temp.html"><img width="420" height="420" src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" class="comparison-image img-responsive active"></a>
+                          <hr class="visible-xs visible-sm">
+                        </div>
+                        <div class="col-md-6">
+                          <h4 class="comparison-header">Latitude vs. Humidity</h4>
+                          <a href="visualizations/humidity.html"><img width="420" height="420" src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity" class="comparison-image img-responsive"></a>
+                          <hr class="visible-xs visible-sm">
+                        </div>
+                        <div class="col-md-6">
+                          <h4 class="comparison-header">Latitude vs. Cloudiness</h4>
+                          <a href="visualizations/cloudiness.html"><img width="420" height="420" src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" class="comparison-image img-responsive"></a>
+                          <hr class="visible-xs visible-sm">
+                        </div>
+                        <div class="col-md-6">
+                          <h4 class="comparison-header">Latitude vs. Wind Speed</h4>
+                          <a href="visualizations/windspeed.html"><img width="420" height="420" src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed" class="comparison-image img-responsive"></a>
+                        </div>
+                      </article>
+                    </div>
+       
+ <div>
+   <footer class="footer">
+    <span class="bottom">Copyright &copy; UWA Bootcamp 2020</span>
+  </footer>
+</div>
+    
+        <!-- jQuery and JS bundle w/ Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    
+ <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </body>
+</html>
